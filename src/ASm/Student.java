@@ -14,10 +14,10 @@ public class Student {
     }
 
     public String calculateRanking(double score) {
-        if (score < 5.0) return "Fail";
-        if (score < 6.5) return "Average";
-        if (score < 7.5) return "Good";
-        if (score < 9.0) return "Very Good";
+        if (score < 50.0) return "Fail";
+        if (score < 60.5) return "Average";
+        if (score < 70.5) return "Good";
+        if (score < 90.0) return "Very Good";
         return "Excellent";
     }
 
